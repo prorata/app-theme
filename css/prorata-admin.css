@@ -1272,13 +1272,10 @@ fieldset[disabled] .btn-twitter.active {
 .form-group {
     position: relative;
 }
-.form-group .parsley-success .parsley-error-list {
-    display: none !important;
-}
-.form-group .parsley-error-list {
+
+.form-group .error-list {
     position: relative;
     top: 0;
-    display: inline-block !important;
     padding: 2px 10px;
     margin: 0;
     list-style: none;
@@ -1291,7 +1288,7 @@ fieldset[disabled] .btn-twitter.active {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
 }
-.form-group .parsley-error-list::after {
+.form-group .error-list::after {
     content: '';
     display: inline-block;
     border-left: 6px solid transparent;
@@ -2790,48 +2787,9 @@ body {
         margin-left: 50px;
     }
 }
-/* !Demo Styles */
-/* ----------------------------------------------- */
-.demo-btn {
-    margin: 0 .5em 1em 0;
-}
-.demo-element {
-    display: inline-block;
-    margin: 0 .5em 1em 0;
-}
-.demo-dropdown-menu {
-    display: inline-block;
-    position: static;
-    top: auto;
-    left: auto;
-    float: none;
-}
-.demo-section {
-    margin-bottom: 5em;
-}
-.demo-section:before,
-.demo-section:after {
-    content: " ";
-    display: table;
-}
-.demo-section:after {
-    clear: both;
-}
-.portlet-title,
-.content-title {
-    position: relative;
-    display: block;
-    margin-bottom: 1.35em;
-    border-bottom: 1px solid #e3e3e3;
-}
-.portlet-title u,
-.content-title u {
-    display: inline-block;
-    position: relative;
-    top: 1px;
-    padding-right: 1em;
-    padding-bottom: 15px;
-    color: #444;
-    text-decoration: none;
-    border-bottom: 1px solid #428bca;
+
+/** Items */
+
+.setup-fee {
+    color: #666;
 }
