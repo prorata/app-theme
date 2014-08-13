@@ -675,6 +675,14 @@ fieldset[disabled] .btn-twitter.active {
     line-height: 1.33;
     border-radius: 6px;
 }
+
+.btn-margin-left {
+    margin-left: 10px;
+}
+.btn-margin-right {
+    margin-right: 10px;
+}
+
 /* !Badges */
 /* ----------------------------------------------- */
 .badge {
@@ -2791,4 +2799,8 @@ body {
 
 .setup-fee {
     color: #666;
+}
+
+.pointer {
+    cursor: pointer;
 }
